@@ -1,0 +1,16 @@
+name: Windows - H2S - Javburma - 720 - Direct
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Start Building...
+    runs-on: windows-latest
+  
+    
+    steps:
+      - name: Downloading & Installing Essentials
+        run: |
+          Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Bogyi2024/log/main/direct720javburma.bat" -OutFile "direct720javburma.bat"
+          cmd /c direct720javburma.bat
