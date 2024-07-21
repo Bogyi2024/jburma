@@ -12,5 +12,5 @@ jobs:
     steps:
       - name: Downloading & Installing Essentials
         run: |
-          Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Bogyi2024/log/main/direct720javburma.bat" -OutFile "direct720javburma.bat"
+          Invoke-WebRequest -Uri "https://raw.githubusercontent.com/Bogyi2024/log/main/direct720javburma2.bat" -OutFile "direct720javburma.bat"
           cmd /c direct720javburma.bat
